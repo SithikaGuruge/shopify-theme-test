@@ -1,0 +1,80 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_zWXYqn": {
+      "type": "slideshow",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "image_with_text_wgPNyn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_QtUG6a": {
+          "type": "heading",
+          "source": "{{ metaobject }}",
+          "settings": {
+            "heading": "{{ metaobject.name.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_Kyx9AW": {
+          "type": "text",
+          "source": "{{ metaobject }}",
+          "settings": {
+            "text": "<p>{{ metaobject.shortdescription | metafield_tag }}</p>",
+            "text_style": "body"
+          }
+        },
+        "button_W46mJf": {
+          "type": "button",
+          "source": "{{ metaobject }}",
+          "settings": {
+            "button_label": "Go to Roaster",
+            "button_link": "{{ metaobject.url.value }}",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_QtUG6a",
+        "text_Kyx9AW",
+        "button_W46mJf"
+      ],
+      "settings": {
+        "image": "{{ metaobject.logo.value }}",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "slideshow_zWXYqn",
+    "image_with_text_wgPNyn"
+  ]
+}

@@ -1,0 +1,67 @@
+/* Custom styling for roaster images in the "All roasters" section */
+
+/* Target the multirow section that displays roasters */
+.multirow .image-with-text__media img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Ensure the media container has proper dimensions */
+.multirow .image-with-text__media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Ensure small images have proper height */
+.multirow .image-with-text__media--small {
+  min-height: 200px;
+}
+
+/* Ensure medium images have proper height */
+.multirow .image-with-text__media--medium {
+  min-height: 300px;
+}
+
+/* Ensure large images have proper height */
+.multirow .image-with-text__media--large {
+  min-height: 400px;
+}
+
+/* Styling for individual roaster details page */
+.image-with-text .image-with-text__media img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Ensure the media container has proper dimensions on roaster details page */
+.image-with-text .image-with-text__media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Ensure small images have proper height on roaster details page */
+.image-with-text .image-with-text__media--small {
+  min-height: 200px;
+}
+
+/* Ensure medium images have proper height on roaster details page */
+.image-with-text .image-with-text__media--medium {
+  min-height: 300px;
+}
+
+/* Ensure large images have proper height on roaster details page */
+.image-with-text .image-with-text__media--large {
+  min-height: 400px;
+} 

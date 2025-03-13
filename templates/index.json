@@ -1,0 +1,314 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_pw8YeT": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_iAWLVN": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/a-barista-smiles-proudly-stood-in-her-cafe.jpg",
+            "image_overlay_opacity": 30,
+            "heading": "Find your next favorite specialty coffee",
+            "heading_size": "h0",
+            "subheading": "<strong>The finest coffee roasters together on one platform </strong>",
+            "button_label": "Shop now",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "bottom-left",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "color_scheme": "scheme-3"
+          }
+        },
+        "slide_nRmn9F": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/roaster-at-local-coffee-business.jpg",
+            "image_overlay_opacity": 50,
+            "heading": "The finest  roasters united on bunamo",
+            "heading_size": "h0",
+            "subheading": "",
+            "button_label": "Discover Roasters",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "bottom-left",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "color_scheme": "scheme-3"
+          }
+        },
+        "slide_i6iJGL": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Shopify-App-Screens.jpg",
+            "image_overlay_opacity": 20,
+            "heading": "The bunamo App",
+            "heading_size": "h0",
+            "subheading": "Every drop perfect in your cup",
+            "button_label": "Get the App",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "top-left",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "color_scheme": "scheme-3"
+          }
+        }
+      },
+      "block_order": [
+        "slide_iAWLVN",
+        "slide_nRmn9F",
+        "slide_i6iJGL"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "custom_liquid_nHPRpP": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "Place Holder: All Roasters on bunamo with Logo and name, horizontally scrollable (automatically)",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_AmmiyW": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_NEtkAJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/coffee-machine-pour-close-up.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Espresso",
+            "link": "shopify://collections/espresso"
+          }
+        },
+        "column_byM9na": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/cup-filtered-coffee.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Filter Coffee",
+            "link": "shopify://collections/filter"
+          }
+        },
+        "column_tVcJbh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/freshly-picked-coffee-beans.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Single Origin",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_NEtkAJ",
+        "column_byM9na",
+        "column_tVcJbh"
+      ],
+      "settings": {
+        "title": "Our top categories",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_blog_97nhAR": {
+      "type": "featured-blog",
+      "settings": {
+        "blog": "news",
+        "post_limit": 3,
+        "heading": "News from bunamo",
+        "heading_size": "h1",
+        "columns_desktop": 3,
+        "show_view_all": true,
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_pPwEV3": {
+      "type": "video",
+      "settings": {
+        "heading": "Bunamo App: Get the most out of your beans",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        //"video": "shopify://files/videos/latteart.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_gcWWJg": {
+      "type": "multirow",
+      "blocks": {
+        "row_hewpqd": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/pour-over-coffee-competition.jpg",
+            "caption": "With intuitive search and filters",
+            "heading": "Find the perfect bean",
+            "text": "<p>Whether filter coffee or espresso, with bunamo you will find the right bean for you.<br/> <br/>Countless reviews from the community will help you find your next bean. </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_jtpCWM": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/spilled-roasted-coffee-beans.jpg",
+            "caption": "Recipes with all important parameters",
+            "heading": "Brew and grind with recipes",
+            "text": "<p>Not all beans are the same. Not all grinders are the same. And not all machines are the same. Setting up a coffee bean perfectly is often a lengthy undertaking.</p><p>bunamo helps you with recipes from roasters and the community, tailored to your grinder and your machine. So that every gram of coffee ends up perfectly in your cup. </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_WmV4GE": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/perfect-pull-of-espresso.jpg",
+            "caption": "Simple documentation function",
+            "heading": "Track all your shots",
+            "text": "<p>It is often the nuances that make the difference between a good and a perfect coffee and espresso.<br/><br/>Along the way, record your settings in bunamo and share your findings with others.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_hewpqd",
+        "row_jtpCWM",
+        "row_WmV4GE"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_Jmmmrf": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "Place Holder: Get the App with download buttons Apple Store and Google play with links",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_XM9TR7": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_XYezVT": {
+          "type": "column",
+          "settings": {
+            "title": "Free Shipping",
+            "text": "<p>Get free and fast shipping on all orders over 49€ per roaster.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yFXhaj": {
+          "type": "column",
+          "settings": {
+            "title": "Direct & Fresh",
+            "text": "<p>From the roaster straight to you. Always freshly roasted.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iC3VnB": {
+          "type": "column",
+          "settings": {
+            "title": "Highest Quality",
+            "text": "<p>Only the finest high-quality roasters.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_XYezVT",
+        "column_yFXhaj",
+        "column_iC3VnB"
+      ],
+      "settings": {
+        "title": "Why bunamo?",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "slideshow_pw8YeT",
+    "custom_liquid_nHPRpP",
+    "multicolumn_AmmiyW",
+    "featured_blog_97nhAR",
+    "video_pPwEV3",
+    "multirow_gcWWJg",
+    "custom_liquid_Jmmmrf",
+    "multicolumn_XM9TR7"
+  ]
+}

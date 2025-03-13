@@ -1,0 +1,155 @@
+<div id="vendor-detail-page">
+  <input type="hidden" id="company_id" value="{{ company.id }}">
+  
+  {% if company.banner_link %}
+    <section class="u-clearfix u-section-1 bck-banner-img" id="sec-44b5" style="background-image: url({{ company.banner_link }});">
+    </section>
+  {% endif %}
+  
+  <div class="u-clearfix u-sheet u-valign-middle u-sheet-1" style="min-height: 250px;">
+    <div class="u-clearfix u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1">
+      <div class="u-layout">
+        <div class="u-layout-row">
+          <div class="u-align-center u-container-style u-layout-cell u-left-cell u-size-23 u-layout-cell-1">
+            <div class="u-container-layout u-container-layout-1" style="height:max-content; display: flex; flex-direction: column; align-items: center; padding-right: 4rem; padding-top: 1.5rem;">
+              <img alt="{{ company.title }}" class="u-image u-image-circle" 
+                   src="{{ company.logo_link }}" data-image-width="150" data-image-height="150" 
+                   style="width: 80%;" width="150" height="150" />
+              <div class="social-media-links">
+                {% if company.facebook_link and company.facebook_link != blank and company.facebook_link != "undefined" %}
+                  <a class="u-social-url" target="_blank" href="{{ company.facebook_link }}">
+                    <svg viewBox="0 0 48 48" width="30" height="30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <!-- Facebook SVG content -->
+                      <circle cx="24" cy="24" r="20" fill="#3B5998"></circle>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M29.315 16.9578C28.6917 16.8331 27.8498 16.74 27.3204 16.74C25.8867 16.74 25.7936 17.3633 25.7936 18.3607V20.1361H29.3774L29.065 23.8137H25.7936V35H21.3063V23.8137H19V20.1361H21.3063V17.8613C21.3063 14.7453 22.7708 13 26.4477 13C27.7252 13 28.6602 13.187 29.8753 13.4363L29.315 16.9578Z" fill="white"></path>
+                    </svg>
+                  </a>
+                {% endif %}
+                {% if company.tiktok_link and company.tiktok_link != blank and company.tiktok_link != "undefined" %}
+                  <a class="u-social-url" target="_blank" href="{{ company.tiktok_link }}">
+                    <svg viewBox="0 0 32 32" width="30" height="30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <!-- TikTok SVG content -->
+                    </svg>
+                  </a>
+                {% endif %}
+                {% if company.twitter_link and company.twitter_link != blank and company.twitter_link != "undefined" %}
+                  <a class="u-social-url" target="_blank" href="{{ company.twitter_link }}">
+                    <svg viewBox="0 -4 48 48" width="30" height="30" fill="#000000" xmlns="http://www.w3.org/2000/svg">
+                      <!-- Twitter SVG content -->
+                      <g>
+                        <title>Twitter-color</title>
+                        <desc>Created with Sketch.</desc>
+                        <g fill="#00AAEC">
+                          <path d="M348,168.735283 C346.236309,169.538462 344.337383,170.081618 342.345483,170.324305 C344.379644,169.076201 345.940482,167.097147 346.675823,164.739617 C344.771263,165.895269 342.666667,166.736006 340.418384,167.18671 C338.626519,165.224991 336.065504,164 333.231203,164 C327.796443,164 323.387216,168.521488 323.387216,174.097508 C323.387216,174.88913 323.471738,175.657638 323.640782,176.397255 C315.456242,175.975442 308.201444,171.959552 303.341433,165.843265 C302.493397,167.339834 302.008804,169.076201 302.008804,170.925244 C302.008804,174.426869 303.747139,177.518238 306.389857,179.329722 C304.778306,179.280607 303.256911,178.821235 301.9271,178.070061 L301.9271,178.194294 C301.9271,183.08848 305.322064,187.17082 309.8299,188.095341 C309.004402,188.33225 308.133826,188.450704 307.235077,188.450704 C306.601162,188.450704 305.981335,188.390033 305.381229,188.271578 C306.634971,192.28169 310.269414,195.2026 314.580032,195.280607 C311.210424,197.99061 306.961789,199.605634 302.349709,199.605634 C301.555203,199.605634 300.769149,199.559408 300,199.466956 C304.358514,202.327194 309.53689,204 315.095615,204 C333.211481,204 343.114633,188.615385 343.114633,175.270495 C343.114633,174.831347 343.106181,174.392199 343.089276,173.961719 C345.013559,172.537378 346.684275,170.760563 348,168.735283"></path>
+                        </g>
+                      </g>
+                    </svg>
+                  </a>
+                {% endif %}
+                {% if company.instagram_link and company.instagram_link != blank and company.instagram_link != "undefined" %}
+                  <a class="u-social-url" target="_blank" href="{{ company.instagram_link }}">
+                    <svg viewBox="0 0 32 32" fill="none" width="30" height="30" xmlns="http://www.w3.org/2000/svg">
+                      <!-- Instagram SVG content -->
+                      <g>
+                        <rect x="2" y="2" width="28" height="28" rx="6" fill="url(#paint0_radial_87_7153)"></rect>
+                        <rect x="2" y="2" width="28" height="28" rx="6" fill="url(#paint1_radial_87_7153)"></rect>
+                        <rect x="2" y="2" width="28" height="28" rx="6" fill="url(#paint2_radial_87_7153)"></rect>
+                        <path d="M23 10.5C23 11.3284 22.3284 12 21.5 12C20.6716 12 20 11.3284 20 10.5C20 9.67157 20.6716 9 21.5 9C22.3284 9 23 9.67157 23 10.5Z" fill="white"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16 21C18.7614 21 21 18.7614 21 16C21 13.2386 18.7614 11 16 11C13.2386 11 11 13.2386 11 16C11 18.7614 13.2386 21 16 21ZM16 19C17.6569 19 19 17.6569 19 16C19 14.3431 17.6569 13 16 13C14.3431 13 13 14.3431 13 16C13 17.6569 14.3431 19 16 19Z" fill="white"></path>
+                      </g>
+                    </svg>
+                  </a>
+                {% endif %}
+              </div>
+              
+              {% if parentCompany.display_vendor_location %}
+                <p class="u-text u-text-grey-50 u-text-1">
+                  {{ company.city }}{% if company.city %}, {% endif %}{{ company.state.title }}{% if company.state %}, {% endif %}{{ company.countryDetail.name }}
+                </p>
+                <p class="u-text u-text-grey-50 u-text-10 no-top-margin">{{ company.email }}</p>
+              {% endif %}
+            </div>
+          </div>
+          
+          <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-37 u-layout-cell-2">
+            <div class="u-container-layout u-container-layout-2">
+              <h2 style="margin-bottom: 0;" class="u-text">{{ company.brand_name }}</h2>
+              <p class="u-text u-text-3">
+                {{ company.about_us }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Tabs -->
+  <section class="u-align-center u-clearfix u-section-2" id="carousel_37bc">
+    <div class="u-clearfix u-sheet u-sheet-1">
+      <div class="u-expanded-width u-tab-links-align-justify u-tabs u-tabs-1" id="u-tabs">
+        <ul class="u-tab-list u-unstyled" role="tablist">
+          {% if parentCompany.vendor_profile_settings and parentCompany.vendor_profile_settings.seller_products_tab %}
+            <li class="u-tab-item" role="presentation">
+              <a class="active u-active-white u-border-6 u-border-active-palette-1-base u-border-grey-15 u-border-hover-grey-15 u-border-no-bottom u-border-no-left u-border-no-right u-button-style u-grey-10 u-hover-grey-10 u-tab-link u-tab-link-1" id="link-tab-products" href="#tab-products" role="tab" aria-controls="tab-products" aria-selected="true">Products</a>
+            </li>
+          {% endif %}
+          {% if parentCompany.vendor_profile_settings and parentCompany.vendor_profile_settings.seller_policy_tab %}
+            <li class="u-tab-item u-tab-item-2" role="presentation">
+              <a class="u-active-white u-border-6 u-border-active-palette-1-base u-border-grey-15 u-border-hover-grey-15 u-border-no-bottom u-border-no-left u-border-no-right u-button-style u-grey-10 u-hover-grey-10 u-tab-link u-tab-link-2" id="link-tab-policy" href="#tab-policy" role="tab" aria-controls="tab-policy" aria-selected="false">Policy</a>
+            </li>
+          {% endif %}
+          {% if parentCompany.vendor_profile_settings and parentCompany.vendor_profile_settings.seller_about_us_tab %}
+            <li class="u-tab-item u-tab-item-5" role="presentation">
+              <a class="u-active-white u-border-6 u-border-active-palette-1-base u-border-grey-15 u-border-hover-grey-15 u-border-no-bottom u-border-no-left u-border-no-right u-button-style u-grey-10 u-hover-grey-10 u-tab-link u-tab-link-5" id="link-tab-aboutus" href="#tab-aboutus" role="tab" aria-controls="link-tab-aboutus" aria-selected="false">About Us</a>
+            </li>
+          {% endif %}
+          {% if parentCompany.vendor_profile_settings and parentCompany.vendor_profile_settings.seller_events_tab %}
+            <li class="u-tab-item u-tab-item-5" role="presentation">
+              <a class="u-active-white u-border-6 u-border-active-palette-1-base u-border-grey-15 u-border-hover-grey-15 u-border-no-bottom u-border-no-left u-border-no-right u-button-style u-grey-10 u-hover-grey-10 u-tab-link u-tab-link-5" id="link-tab-events" href="#tab-events" role="tab" aria-controls="link-tab-events" aria-selected="false">Events</a>
+            </li>
+          {% endif %}
+          {% if parentCompany.vendor_profile_settings and parentCompany.vendor_profile_settings.seller_contact_us_tab %}
+            <li class="u-tab-item u-tab-item-5" role="presentation">
+              <a class="u-active-white u-border-6 u-border-active-palette-1-base u-border-grey-15 u-border-hover-grey-15 u-border-no-bottom u-border-no-left u-border-no-right u-button-style u-grey-10 u-hover-grey-10 u-tab-link u-tab-link-5" id="link-tab-contactus" href="#tab-contactus" role="tab" aria-controls="link-tab-contactus" aria-selected="false">Contact Us</a>
+            </li>
+          {% endif %}
+        </ul>
+        <div class="u-tab-content">
+          <div class="u-container-style u-tab-active u-tab-pane u-white u-tab-pane-1" id="tab-products" role="tabpanel" aria-labelledby="link-tab-products">
+          </div>
+          <div class="u-container-style u-tab-pane u-white u-tab-pane-2" id="tab-policy" role="tabpanel" aria-labelledby="link-tab-policy">
+          </div>
+          <div class="u-align-left u-container-style u-tab-pane u-white" id="tab-aboutus" role="tabpanel" aria-labelledby="tab-aboutus">
+          </div>
+          <div class="u-align-left u-container-style u-tab-pane u-white" id="tab-events" role="tabpanel" aria-labelledby="tab-events">
+          </div>
+          <div class="u-align-left u-container-style u-tab-pane u-white u-tab-pane-5" id="tab-contactus" role="tabpanel" aria-labelledby="tab-contactus">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Roasters Section -->
+  <section id="roasters-section" class="u-align-center u-clearfix">
+    <div class="u-sheet">
+      <h2>Our Roasters</h2>
+      {% assign roasters = shop.metaobjects.roaster %}
+      {% if roasters.size > 0 %}
+        {% for roaster in roasters %}
+          <div class="roaster-metaobject">
+            <h3>{{ roaster.fields.anzeigename }}</h3>
+            <img src="{{ roaster.fields.logo | image_url: 'medium' }}" alt="{{ roaster.fields.anzeigename }}" width="200" height="200" style="object-fit: contain; max-width: 100%; max-height: 200px;" />
+            <p>City: {{ roaster.fields.city }}</p>
+            <p>Address: {{ roaster.fields.adress }}</p>
+            <p>{{ roaster.fields.shortdescription }}</p>
+          </div>
+        {% endfor %}
+      {% else %}
+        <p>No roasters found.</p>
+      {% endif %}
+    </div>
+  </section>
+  
+</div>

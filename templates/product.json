@@ -1,0 +1,292 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "text_RUP9xE": {
+          "type": "text",
+          "settings": {
+            "text": "Preperation Method: {{ product.metafields.shipturtle.sp_67c70467e03ac | metafield_text }}",
+            "text_style": "body"
+          }
+        },
+        "text_bhtDhn": {
+          "type": "text",
+          "settings": {
+            "text": "Sort: {{ product.metafields.shipturtle.sp_67c706632c898.value }}% Arabica, {{ product.metafields.shipturtle.sp_67c70672e0e67.value }}% Robusta",
+            "text_style": "body"
+          }
+        },
+        "text_GcG3Cw": {
+          "type": "text",
+          "settings": {
+            "text": "Origin: {{ product.metafields.shipturtle.sp_67c757c628525 | metafield_text }}",
+            "text_style": "body"
+          }
+        },
+        "text_hVzWUy": {
+          "type": "text",
+          "settings": {
+            "text": "Taste: {{ product.metafields.shipturtle.sp_67c7572d017ca | metafield_text }}",
+            "text_style": "body"
+          }
+        },
+        "text_Wyanqr": {
+          "type": "text",
+          "settings": {
+            "text": "Characteristics: {{ product.metafields.shipturtle.sp_67c75931a0c56 | metafield_text }}",
+            "text_style": "body"
+          }
+        },
+        "text_JpGC7w": {
+          "type": "text",
+          "settings": {
+            "text": "Roast Degree:<strong> </strong>{{ product.metafields.shipturtle.sp_67c758537ec98.value }}<em>/ 10</em>",
+            "text_style": "body"
+          }
+        },
+        "text_EKXRwQ": {
+          "type": "text",
+          "settings": {
+            "text": "Strength: {{ product.metafields.shipturtle.sp_67c7587bc666b.value }}<em>/ 10</em>",
+            "text_style": "body"
+          }
+        },
+        "text_riGCML": {
+          "type": "text",
+          "settings": {
+            "text": "Acidity: {{ product.metafields.shipturtle.sp_67c75862aaeac.value }}<em>/ 10</em>",
+            "text_style": "body"
+          }
+        },
+        "custom_liquid_CL9PPA": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% unless metafields.namespace.key.text == blank %}\n  Value: {{ metafields.namespace.key }}\n{% endunless %}"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "text_XH6HTg": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "text_RUP9xE",
+        "text_bhtDhn",
+        "text_GcG3Cw",
+        "text_hVzWUy",
+        "text_Wyanqr",
+        "text_JpGC7w",
+        "text_EKXRwQ",
+        "text_riGCML",
+        "custom_liquid_CL9PPA",
+        "description",
+        "share",
+        "text_XH6HTg"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "mobile_thumbnails": "hide",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "image_with_text_fkB47Y": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_yPL8Qg": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.vendor }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_CdbUtm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ metaobjects.roaster[\"phoenix-coffee-roasters\"].city.value }}</p>",
+            "text_style": "body"
+          }
+        },
+        "button_YTjmJz": {
+          "type": "button",
+          "settings": {
+            "button_label": "About {{ metaobjects.roaster[\"phoenix-coffee-roasters\"].name.value }}",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_yPL8Qg",
+        "text_CdbUtm",
+        "button_YTjmJz"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.custom.roaster.value.logo.value }}",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "multicolumn_QKHPbF": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_33wVjG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/latte-pour-art.jpg",
+            "title": "Matching Coffee Recipes",
+            "text": "<p>bunamo helps you with recipes from roasters and the community tailored to your grinder and machine. So that every gram of coffee ends up perfectly in your cup. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_X48R3B": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/fresh-double-espresso-being-made-by-barista.jpg",
+            "title": "Track your shots",
+            "text": "<p>It is often the details that make the difference between a good and a perfect coffee and espresso. Along the way, record your settings in bunamo and share your findings with others.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CNKkNq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/a-barista-chats-to-a-customer-at-the-cash-till.jpg",
+            "title": "Share it & Follow",
+            "text": "<p>Share your latest recipes and shots with your barista friends. Follow your favorite roasters, stay up to date and never miss a new specialty roast </p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_33wVjG",
+        "column_X48R3B",
+        "column_CNKkNq"
+      ],
+      "settings": {
+        "title": "Join the bunamo community",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "Download the App",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_fkB47Y",
+    "related-products",
+    "multicolumn_QKHPbF"
+  ]
+}

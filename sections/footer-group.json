@@ -1,0 +1,62 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "link_list_kadnXU": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Do you have questions?",
+            "menu": "footer"
+          }
+        },
+        "text_LpmdRE": {
+          "type": "text",
+          "settings": {
+            "heading": "Our Mission",
+            "subtext": "<p>Find your next favorite coffee, get it freshly roasted directly from your roaster. Brew it perfetly in your cup with bunamo.</p>"
+          }
+        },
+        "brand_information_if44Yk": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        }
+      },
+      "block_order": [
+        "link_list_kadnXU",
+        "text_LpmdRE",
+        "brand_information_if44Yk"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": false,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
