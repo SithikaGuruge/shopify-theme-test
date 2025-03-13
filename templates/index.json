@@ -15,9 +15,8 @@
         "slide_iAWLVN": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/a-barista-smiles-proudly-stood-in-her-cafe.jpg",
             "image_overlay_opacity": 30,
-            "heading": "Find your next favorite specialty coffee",
+            "heading": "Find your next favorite specialty coffee test",
             "heading_size": "h0",
             "subheading": "<strong>The finest coffee roasters together on one platform </strong>",
             "button_label": "Shop now",
@@ -33,7 +32,6 @@
         "slide_nRmn9F": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/roaster-at-local-coffee-business.jpg",
             "image_overlay_opacity": 50,
             "heading": "The finest  roasters united on bunamo",
             "heading_size": "h0",
@@ -51,7 +49,6 @@
         "slide_i6iJGL": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Shopify-App-Screens.jpg",
             "image_overlay_opacity": 20,
             "heading": "The bunamo App",
             "heading_size": "h0",
@@ -98,7 +95,6 @@
         "column_NEtkAJ": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/coffee-machine-pour-close-up.jpg",
             "title": "",
             "text": "",
             "link_label": "Espresso",
@@ -108,7 +104,6 @@
         "column_byM9na": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/cup-filtered-coffee.jpg",
             "title": "",
             "text": "",
             "link_label": "Filter Coffee",
@@ -118,7 +113,6 @@
         "column_tVcJbh": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/freshly-picked-coffee-beans.jpg",
             "title": "",
             "text": "",
             "link_label": "Single Origin",
@@ -171,7 +165,6 @@
         "heading": "Bunamo App: Get the most out of your beans",
         "heading_size": "h1",
         "enable_video_looping": true,
-        //"video": "shopify://files/videos/latteart.mp4",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
@@ -186,7 +179,6 @@
         "row_hewpqd": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/pour-over-coffee-competition.jpg",
             "caption": "With intuitive search and filters",
             "heading": "Find the perfect bean",
             "text": "<p>Whether filter coffee or espresso, with bunamo you will find the right bean for you.<br/> <br/>Countless reviews from the community will help you find your next bean. </p>",
@@ -197,7 +189,6 @@
         "row_jtpCWM": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/spilled-roasted-coffee-beans.jpg",
             "caption": "Recipes with all important parameters",
             "heading": "Brew and grind with recipes",
             "text": "<p>Not all beans are the same. Not all grinders are the same. And not all machines are the same. Setting up a coffee bean perfectly is often a lengthy undertaking.</p><p>bunamo helps you with recipes from roasters and the community, tailored to your grinder and your machine. So that every gram of coffee ends up perfectly in your cup. </p>",
@@ -208,7 +199,6 @@
         "row_WmV4GE": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/perfect-pull-of-espresso.jpg",
             "caption": "Simple documentation function",
             "heading": "Track all your shots",
             "text": "<p>It is often the nuances that make the difference between a good and a perfect coffee and espresso.<br/><br/>Along the way, record your settings in bunamo and share your findings with others.</p>",
